@@ -351,7 +351,7 @@ export function ResidentialQuoteForm({ lang, onSuccessSubmit }: FormProps) {
           {t.resFormSubmit}
         </button>
       </div>
-    </form>
+    </form action="https://formspree.io/f/mzdlvodp" method="POST">
   );
 }
 
