@@ -734,6 +734,6 @@ export function CommercialEstimateForm({ lang, onSuccessSubmit }: FormProps) {
           {t.commFormSubmit}
         </button>
       </div>
-    </form>
+    </form action="YOUR_FORMSPREE_COMMERCIAL_URL" method="POST">
   );
 }
