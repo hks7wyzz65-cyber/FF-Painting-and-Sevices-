@@ -125,7 +125,7 @@ export function ResidentialQuoteForm({ lang, onSuccessSubmit }: FormProps) {
   };
 
   return (
-    <form <form
+    <form
   action="https://formspree.io/f/mzdlvodp"
   method="POST"
   className="bg-white rounded-2xl p-6 md:p-10 shadow-xl border border-slate-100 max-w-4xl mx-auto"
@@ -467,7 +467,7 @@ export function CommercialEstimateForm({ lang, onSuccessSubmit }: FormProps) {
   };
 
   return (
-    <form <form
+    <form
   action="https://formspree.io/f/mojolrko"
   method="POST"
   className="bg-white rounded-2xl p-6 md:p-10 shadow-xl border border-slate-100 max-w-4xl mx-auto"
