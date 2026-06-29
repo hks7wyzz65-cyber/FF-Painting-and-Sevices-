@@ -125,8 +125,11 @@ export function ResidentialQuoteForm({ lang, onSuccessSubmit }: FormProps) {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="bg-white rounded-2xl p-6 md:p-10 shadow-xl border border-slate-100 max-w-4xl mx-auto">
-      <div className="space-y-8">
+    <form <form
+  action="https://formspree.io/f/mzdlvodp"
+  method="POST"
+  className="bg-white rounded-2xl p-6 md:p-10 shadow-xl border border-slate-100 max-w-4xl mx-auto"
+      >
         
         {/* Step 1: Contact Information */}
         <div>
@@ -351,7 +354,7 @@ export function ResidentialQuoteForm({ lang, onSuccessSubmit }: FormProps) {
           {t.resFormSubmit}
         </button>
       </div>
-    </form action="https://formspree.io/f/mzdlvodp" method="POST">
+    </form>
   );
 }
 
@@ -464,8 +467,11 @@ export function CommercialEstimateForm({ lang, onSuccessSubmit }: FormProps) {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="bg-white rounded-2xl p-6 md:p-10 shadow-xl border border-slate-100 max-w-4xl mx-auto">
-      <div className="space-y-8">
+    <form <form
+  action="https://formspree.io/f/mojolrko"
+  method="POST"
+  className="bg-white rounded-2xl p-6 md:p-10 shadow-xl border border-slate-100 max-w-4xl mx-auto"
+>
         
         {/* Contact Info */}
         <div>
@@ -734,6 +740,6 @@ export function CommercialEstimateForm({ lang, onSuccessSubmit }: FormProps) {
           {t.commFormSubmit}
         </button>
       </div>
-    </form action="YOUR_FORMSPREE_COMMERCIAL_URL" method="POST">
+    </form>
   );
 }
