@@ -354,7 +354,7 @@ export function ResidentialQuoteForm({ lang, onSuccessSubmit }: FormProps) {
           {t.resFormSubmit}
         </button>
       </div>
-    </form>
+    </form
   );
 }
 
